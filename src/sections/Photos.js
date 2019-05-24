@@ -98,7 +98,7 @@ const parsePost = postFromGraphql => {
 
 const edgeToArray = data => data.edges.map(edge => edge.node);
 
-const Writing = () => (
+const Photos = () => (
   <StaticQuery
     query={graphql`
       query MediumPostQuery {
@@ -134,8 +134,8 @@ const Writing = () => (
       const { isMediumUserDefined } = site.siteMetadata;
       return (
         isMediumUserDefined && (
-          <Section.Container id="writing" Background={Background}>
-            <Section.Header name="Writing" icon="✍️" label="writing" />
+          <Section.Container id="photos" Background={Background}>
+            <Section.Header name="Photos" icon="📷" label="photos" />
             <CardContainer minWidth="300px">
               {posts.map(p => (
                 <Fade bottom>
@@ -150,4 +150,4 @@ const Writing = () => (
   />
 );
 
-export default Writing;
+export default Photos;
