@@ -1,7 +1,7 @@
 {
   "name": "proj-tea",
   "version": "2.2.0",
-  "description": "Gatsby v2 starter to create a top notch site",
+  "description": "Mission: to deliver the best tea!",
   "main": "index.js",
   "scripts": {
     "build": "cleandir ./.cache && gatsby build",
@@ -15,13 +15,13 @@
     "url": "git+https://github.com/EmaSuriano/gatsby-starter-mate.git"
   },
   "keywords": [
-    "gatsby",
-    "starter",
-    "contentful",
-    "PWA",
-    "portfolio"
+    "Boba",
+    "Tea",
+    "Ice Cream",
+    "Yogurt Drinks",
+    "and More!"
   ],
-  "author": "Ema Suriano",
+  "author": "Ptr.Lng",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/EmaSuriano/gatsby-starter-mate/issues"
